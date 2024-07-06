@@ -1,6 +1,21 @@
 import { Button, VerticalBox } from "std-widgets.slint";
 
 export component AppWindow inherits Window {
-    in-out property<int> counter: 42;
+    GridLayout {
+            Row {
+                Text {
+                    x:0;y:0;
+                    text: "Hello World";
+                    color: red;
+                }
+            }
+            Row{
+
+            }
+            Row{
+
+            }
+
+    }   
 
 }
